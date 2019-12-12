@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/*  Loader */
+@keyframes load {
+    0% {
+        opacity: 0.08;
+        filter: blur(5px);
+        letter-spacing: 3px;
+
+    }
+
+    100% {
+        /*         opacity: 1; */
+        /*         font-size: 12px; */
+        /* 				font-weight:600; */
+        /* 				filter: blur(0); */
+    }
+}
+
+.gallery {
+    scroll-behavior: smooth;
+}
+
+.animate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    font-family: Helvetica, sans-serif, Arial;
+    animation: load infinite 0.9s ease-in-out;
+    animation-direction: alternate;
+    text-shadow: 0 0 1px white;
+}
+
+.loader img {
+    width: 600px;
+    height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .loader img {
+        width: 600px;
+        height: auto;
+    }
+    .gate img {
+        top: 51.5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .loader img {
+        width: 600px;
+    }
+    .gate img {
+        top: 51%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .loader img {
+        width: 300px;
+    }
+    .gate img {
+        top: 51%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .gate img {
+        top: 51%;
+        left: 51% !important;
+    }
+}
+
+
+/*----------------------*/
+.log {
+    opacity: 1;
+    width: 600px;
+    height: auto;
+    margin-bottom: 30px;
+    display: inline-block;
+    animation: 8s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s 1 normal both running text-focus-in;
+}
+
+.fa-phone {
+    width: 20px;
+    line-height: 5px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.micasa_logo {
+    width: 65px;
+    height: auto;
+    display: none;
+}
+
+
+.micasa-contact {
+    padding-top: 50px;
+}
+
+input,
+textarea {
+    font-size: 14px;
+}
+
+footer {
+    padding-bottom: 30px !important;
+}
+
+@media (max-width:767px) {
+    .log {
+        width: 300px !important;
+    }
+}
+
+.circle:hover {
+    border: 2px #dbab83 solid;
+}
+
+.colors-h .background-20,
+.colors-h.background-20 {
+    background-color: rgba(15, 14, 14, .2) !important;
+}
+
+
+.hover-overlay:hover img {
+    transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+}
+
+.show-list .slogan {
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+}
+
+#numb {
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 16px !important;
+    position: relative;
+    margin-left: 30px;
+    top: 9.6px;
+    border: rgba(231, 188, 131, 0.748) solid 1.5px;
+    padding: 8px 14px;
+    opacity: 0.9;
+}
+
+.photo {
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.middle {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.middle i {
+    line-height: 48px;
+    font-size: 24px;
+    transition: 0.2s linear;
+    color: #DBAB83;
+}
+
+.middle:hover i {
+    transform: scale(1.3);
+    color: #fff;
+}
+
+.middle::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #DBAB83;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.middle:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa {
+    0% {
+        left: -110%;
+        top: 90%;
+    }
+
+    50% {
+        left: 10%;
+        top: -30%;
+    }
+
+    100% {
+        top: -10%;
+        left: -10%;
+    }
+}
+
+.micasa-nav {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    .micasa-nav {
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .middle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .middle i {
+        line-height: 50px;
+        font-size: 22px;
+        transition: 0.2s linear;
+        color: #DBAB83;
+    }
+}
+
+/*--------TEAM---------*/
+
+.quote {
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-style: italic;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+/*--------PORTFOLIO---------*/
+.humo_text {
+    /*padding: 110px;*/
+    text-align: center;
+}
+
+.humo_letter p {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.humo_logo {
+    padding-top: 90px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .humo_text {
+        padding: 5px !important;
+    }
+
+    .humo_logo {
+        padding-top: 40px;
+    }
+
+    .humo_letter p {
+        padding-top: 15px;
+        font-size: 30px;
+        line-height: 2;
+    }
+
+    .humo_logo img {
+        width: 80px !important;
+    }
+
+    /*--------TEAM---------*/
+
+    .quote {
+        position: relative;
+        top: 65px;
+        font-size: 18px;
+        line-height: 1.2;
+        font-style: italic;
+        padding-left: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+}
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .humo_text h3{
+        font-size: 22px;
+    }
+    
+    .humo_text p{
+        padding-left: 20px; 
+        margin: 0px;
+        font-size: 10px;
+    }  
+}
+
+@media only screen and (max-width: 768px) {
+    .humo_text h3{
+        margin: 0px;
+        font-size: 18px;
+    }
+    
+    .humo_text p{
+        padding-left: 20px; 
+        margin: 0px;
+        font-size: 8px;
+        line-height: 14px;
+    }  
+
+    .humo_logo {
+        padding-top: 40px;
+    }
+
+    .humo_letter p {
+        padding-top: 10px;
+        font-size: 24px;
+        line-height: 2;
+    }
+
+    .humo_logo img {
+        width: 50px !important;
+    }
+
+    /*--------TEAM---------*/
+
+    .quote {
+        text-align: left;
+        padding: 0;
+        position: relative;
+        top: 65px;
+        font-size: 18px;
+        line-height: 1.2;
+        font-style: italic;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }   
+}
+
+@media only screen and (max-width: 600px) {
+    .quote {
+        text-align: left;
+        padding: 10px;
+        top: 20px;
+        font-size: 16px;
+    }   
+}
+
+@media only screen and (max-width: 500px) {
+    .quote {
+        text-align: left;
+        padding: 5px;
+        top: 15px;
+        font-size: 14px;
+    }   
+}
+
+@media only screen and (max-width: 420px) {
+    .quote {
+        text-align: left;
+        padding: 5px;
+        padding-left: 0px;
+        font-size: 12px;
+    }   
+}
+
+@media only screen and (max-width: 375px) {
+    .quote {
+        text-align: left;
+        padding: 5px;
+        padding-left: 0px;
+        font-size: 10px;
+    }   
+}
+
+@media only screen and (max-width: 320px) {
+    .quote {
+        text-align: left;
+        padding: 5px;
+        padding-left: 0px;
+        font-size: 8px;
+    }   
+}
+
+
+
+/*yandex map*/
+
+#map {
+    width: 100%;
+    height: 550px;
+}
+
+.ymaps-2-1-72-zoom {
+    filter: invert(95%) grayscale(90%);
+    -ms-filter: invert(95%) grayscale(90%);
+    -webkit-filter: invert(95%) grayscale(90%);
+    -moz-filter: invert(95%) grayscale(90%);
+    -o-filter: invert(95%) grayscale(90%);
+}
+
+
+.ymaps-layers-pane {
+    filter: invert(95%) grayscale(90%);
+    -ms-filter: invert(95%) grayscale(90%);
+    -webkit-filter: invert(95%) grayscale(90%);
+    -moz-filter: invert(95%) grayscale(90%);
+    -o-filter: invert(95%) grayscale(90%);
+}
+
+/*yandex map*/
+.mar_bot {
+    margin-bottom: 70px;
+
+}
