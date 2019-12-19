@@ -1,0 +1,9 @@
+[18-Dec-2019 21:07:14 Asia/Tashkent] PHP Notice:  Undefined variable: txt in /home/micasauz/public_html/telegram.php on line 18
+[18-Dec-2019 21:07:14 Asia/Tashkent] PHP Warning:  fopen(https://...@mail.ru%0A&lt;b&gt;Message: &lt;/b&gt; asdasd%0A): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/micasauz/public_html/telegram.php on line 21
+[18-Dec-2019 21:12:35 Asia/Tashkent] PHP Notice:  Undefined variable: txt in /home/micasauz/public_html/telegram.php on line 18
+[18-Dec-2019 21:12:35 Asia/Tashkent] PHP Warning:  fopen(https://api.telegram.org/bot900529172:AAEOhJBaN-7EICzcgQ4irWmZvMlX3Zc5sC8/sendMessage?chat_id=-342631256&amp;parse_mode=html&amp;text=&lt;b&gt;Name: &lt;/b&gt; frfvfv%0A&lt;b&gt;Phone: &lt;/b&gt; %2B+998946672522%0A&lt;b&gt;Message: &lt;/b&gt; fvfdv%0A): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/micasauz/public_html/telegram.php on line 21
+[18-Dec-2019 21:16:53 Asia/Tashkent] PHP Notice:  Undefined variable: txt in /home/micasauz/public_html/telegram.php on line 17
+[18-Dec-2019 21:16:53 Asia/Tashkent] PHP Warning:  fopen(https://api.telegram.org/bot900529172:AAEOhJBaN-7EICzcgQ4irWmZvMlX3Zc5sC8/sendMessage?chat_id=-342631256&amp;parse_mode=html&amp;text=&lt;b&gt;Имя: &lt;/b&gt; Трололо%0A&lt;b&gt;Номер: &lt;/b&gt; +998946672522%0A&lt;b&gt;Сообщение: &lt;/b&gt; рпавы%0A): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/micasauz/public_html/telegram.php on line 20

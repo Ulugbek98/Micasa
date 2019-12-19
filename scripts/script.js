@@ -17,7 +17,7 @@ $(function() { new (function(){
 	var dotScroll = require('./widgets/dot-scroll.js');
 	var Map = require('./widgets/map.js');
 	var Skillbar = require('./widgets/skillbar.js');
-	var AjaxForm = require('./widgets/ajax-form.js');
+
 	var YoutubeBG = require('./widgets/youtube-bg.js');
 	var VimeoBG = require('./widgets/vimeo-bg.js');
 	var VideoBG = require('./widgets/video-bg.js');
